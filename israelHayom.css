@@ -1,0 +1,63 @@
+ul {
+    list-style-type: none;
+    /*margin-left: 55%;*/
+    width:250px
+}
+body{
+    padding: 0 50px;
+}
+
+
+.btn-primary {
+    width: 167px;
+    color: #fff;
+    background-color: #1b1e21;
+    border-color: #f8f9fa;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: red;
+    border-color: #f8f9fa;
+}
+
+
+.container {
+    /*display: inline-block;*/
+
+    margin-top: 10%;
+    /*background: #6af;*/
+    /*vertical-align: top;*/
+    /*background-color: #721c24;*/
+}
+.col{
+    margin-top: 150px
+}
+#change-image{
+    background-image: url(../israelHayom/assets/adversiting.jpeg);
+    width: 118px;
+    height: 270px;
+    margin: 7px;
+    border-radius: 25px;
+}
+#changing-image{
+
+    width: 297px;
+    height: 144px;
+    margin-left: 103px;
+    margin-top: 28px;
+    border-radius: 25px;
+}
+
+
+
+
+@media (max-width: 400px) {
+.col{
+    padding: 30px;
+}
+    /*  #desktop{*/
+    /*    display: none;*/
+    /*}*/
+
+}
