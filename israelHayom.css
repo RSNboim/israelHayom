@@ -1,9 +1,9 @@
 ul {
     list-style-type: none;
-    /*margin-left: 55%;*/
-    width:250px
+    width: 250px
 }
-body{
+
+body {
     padding: 0 50px;
 }
 
@@ -23,24 +23,22 @@ body{
 
 
 .container {
-    /*display: inline-block;*/
-
     margin-top: 10%;
-    /*background: #6af;*/
-    /*vertical-align: top;*/
-    /*background-color: #721c24;*/
+
 }
-.col{
+
+.col {
     margin-top: 150px
 }
-#change-image{
-    background-image: url(../israelHayom/assets/adversiting.jpeg);
+
+.change-image {
     width: 118px;
     height: 270px;
     margin: 7px;
-    border-radius: 25px;
+    border-radius: 43px;
 }
-#changing-image{
+
+.changing-image {
 
     width: 297px;
     height: 144px;
@@ -49,15 +47,46 @@ body{
     border-radius: 25px;
 }
 
-
-
-
-@media (max-width: 400px) {
-.col{
-    padding: 30px;
+.desktop-screen {
+    background-image: url(../israelHayom/./assets/desktop-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 450px;
 }
-    /*  #desktop{*/
-    /*    display: none;*/
-    /*}*/
 
+@media (min-width: 600px) {
+    .mobile-dropdown {
+        display: none;
+    }
+    .dropdown show{
+        display: none;
+    }
+    .desktop-dropdown {
+        display: none;
+    }
+    .dropdown-menu{
+        display: none;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .mobile-dropdown {
+        margin-left: 245px
+    }
+
+    .mobile-buttons {
+        display: none;
+    }
+
+    .desktop-buttons {
+        display: none;
+    }
+
+    .col {
+        margin-top: 0px;
+    }
+
+    .desktop-screen {
+        transform: scale(0.7);
+    }
 }
